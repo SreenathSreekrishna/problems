@@ -45,7 +45,7 @@ const problems = [
     },
     {
         statement: "Find a four digit number $\\overline{abcd}$ such that $a^b c^d = \\overline{abcd}$.",
-        rating: 3
+        rating: 6
     },
 ];
 
