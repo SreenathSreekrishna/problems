@@ -87,6 +87,38 @@ const problems = [
         statement: "Let $\\triangle ABC$ be an equilateral triangle with integer side length. This triangle is subdivided into $2024$ smaller equilateral triangles of integer side lengths (which may or may not be equal). If the area of $\\triangle ABC$ is minimum, find the maximum possible value of the sum of the perimeters of the $2024$ smaller triangles.",
         rating: 5
     },
+    {
+        statement: "Find the last three digits of $2024^{2024!}$",
+        rating: 4
+    },
+    {
+        statement: "Let $f(x)=\\lfloor \\sqrt[42]{x} \\rfloor$. Define $f_n(x)=f(f_{n-1}(x))$ for $n \\geq 1$, $f_1(x)=f(x)$. Find the number of integer solutions to $f_{2024}(x)=1$.",
+        rating: 3
+    },
+    {
+        statement: "What is the area between the curve $y=\\sqrt{1-x-x^2}$ and the x-axis?",
+        rating: 4
+    },
+    {
+        statement: "A tree starts off with a single shoot. The shoot has an equal probability of growing 0,1,2 or 3 branches. Now, the process is repeated for each new branch. This process continues until all branches randomly grow 0 branches, terminating the process. What is the probability that the tree terminates with exactly 10 branches (including the initial shoot, branches, and sub-branches)?",
+        rating: 6
+    },
+    {
+        statement: "Find the number of ordered pairs of positive integers $(a,b)$ such that $a+b \\leq 42$, $\\gcd(a,b) \\neq a$, and $\\gcd(a^a,b^b)=a^a$.",
+        rating: 4
+    },
+    {
+        statement: "Let the order of a natural number $n$ be defined as the product of the exponents of the prime factors of $n$. For example, the order of $12$ is $2 \\cdot 1 = 2$. Find the order of the order of the order of $(42!)^{42!}$",
+        rating: 4
+    },
+    {
+        statement: "For how many integers $1 \\leq n \\leq 2024$ is $\\sum_{k=1}^{n} 4^k \\cdot k^4$ divisible by 42?",
+        rating: 6
+    },
+    {
+        statement: "What is the least positive integer $n$ such that $n=2^{s(n)+3}-3s(n)$, where $s(n)$ is the sum of the digits of $n$ in base 10?",
+        rating: 3
+    },
 ];
 
 // Create a container to hold the problem divs
