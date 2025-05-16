@@ -47,6 +47,46 @@ const problems = [
         statement: "Find a four digit number $\\overline{abcd}$ such that $a^b c^d = \\overline{abcd}$.",
         rating: 6
     },
+    {
+        statement: "Let $x_n$ be a sequence of strictly positive real numbers defined by $x_1=\\frac{1}{2}$ and $\\frac{x_n-1}{x_n+1} = (1 - \\frac{1}{x_{n+1}})(1 + \\frac{1}{x_{n+1}})$ for all natural numbers $n$. Find the value of $x_{2024}$.",
+        rating: 4
+    },
+    {
+        statement: "Consider a mathematical operation on a natural number $n$ to be either $42n$ or $n+1$. Find the least number of operations needed to transform $1$ into $2024^3$.",
+        rating: 4
+    },
+    {
+        statement: "Let $p(x)=\\prod_{n=0}^{\\infty} \\sum_{k=1}^{\\infty} \\frac{x^{k-1}}{k^n}$. Find the coefficient of $x^5$ in $p(x)$.",
+        rating: 7
+    },
+    {
+        statement: "Let $N$ be the number of positive integers $n<10^{42}$ such that the sum of the digits of $n$ is divisible by 11. Find the sum of the digits of $N$.",
+        rating: 6
+    },
+    {
+        statement: "Let $f$ be a function defined on the set of non-negative integers such that $f(n)$ is equal to the remainder when the ($2024^n$)th prime number is divided by 42. Find the sum of all the integers in the range of $f(n)$.",
+        rating: 4
+    },
+    {
+        statement: "Let $A$ be the difference in the areas under the graphs of $y=\\lfloor x^2\\rfloor$ and $y=(\\lfloor x \\rfloor)^2$ from $x=0$ to $x=42$. Find $\\lfloor \\frac{A}{42} \\rfloor$.",
+        rating: 6
+    },
+    {
+        statement: "In how many ways (taking an arbitrary number of moves) can a queen starting on 'a1' on a chessboard move to 'd4' if it cannot go backwards (in rank or in file)?",
+        rating: 4
+    },
+    {
+        statement: "Let $ABCD$ be the regular tetrahedron with side length $42$. Find the volume of the region defined by all points within 1 unit of a point on or inside the tetrahedron.",
+        rating: 4
+    },
+    {
+        statement: "Find the value of $\\sum_{n=1}^{2024} (-n^n + \\sum_{k=0}^{n}{n\\choose k} (n^{n-k}+n^{k+1}))$.",
+        rating: 3
+    },
+    {
+        statement: "Let $\\triangle ABC$ be an equilateral triangle with integer side length. This triangle is subdivided into $2024$ smaller equilateral triangles of integer side lengths (which may or may not be equal). If the area of $\\triangle ABC$ is minimum, find the maximum possible value of the sum of the perimeters of the $2024$ smaller triangles.",
+        rating: 5
+    },
 ];
 
 // Create a container to hold the problem divs
