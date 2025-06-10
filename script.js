@@ -119,6 +119,86 @@ const problems = [
         statement: "What is the least positive integer $n$ such that $n=2^{s(n)+3}-3s(n)$, where $s(n)$ is the sum of the digits of $n$ in base 10?",
         rating: 3
     },
+    {
+        statement: "Let $s(n)$ be the sum of the squares of the digits of $n$. Let $a_n$ be the sequence defined by $a_1=42$ and $a_{n+1}=s(a_n)$. Find the value of $a_{2024}$.",
+        rating: 4
+    },
+    {
+        statement: "An ant walks 1m north and turns 60 degrees clockwise. It then walks 2m and turns 60 degrees clockwise. It continues this process, walking $n$ meters and turning 60 degrees clockwise. Find the distance from the starting point to the ant's position after $2024$ steps (after it eventually walks 2024m in one go).",
+        rating: 5
+    },
+    {
+        statement: "Let $a,b$ be integers such that $0<b<a$ and $(4^a+4^b)(\\frac{1}{a} + \\frac{1}{b}) + 2^{a+b+1}(\\frac{1}{a} - \\frac{1}{b}) = \\frac{4^{a+1}}{a+b}$. Find the minimum possible value of $ab$.",
+        rating: 5
+    },
+    {
+        statement: "A sphere of radius $42$ is placed on an infinite flat plane. A point sized light source is placed at a distance of $16$ from the surface of the sphere such that the line connecting the light and the center of the sphere is perpendicular to the plane. Find the area of the shadow cast by the sphere on the plane.",
+        rating: 3
+    },
+    {
+        statement: "Find the area between the graphs of $||x|-|y||=1$ and $x^2+y^2=4$.",
+        rating: 4
+    },
+    {
+        statement: "A standard 3x3 rubik's cube is present in its solved state. For each of its eight corners, one of the following three actions is performed uniformly at random: (1) the corner is twisted clockwise, (2) the corner is twisted counterclockwise, or (3) the corner is left as is. Find the probability that the cube is still solvable after these actions using standard turns (without twisting corners or taking apart the cube).",
+        rating: 5
+    },
+    {
+        statement: "A circle of radius $1cm$ made of paper is folded along a randomly chosen chord. What is the probability that the area of the resulting shape is less than $\\frac{10\\pi+3\\sqrt{3}}{12}$?",
+        rating: 4
+    },
+    {
+        statement: "Let $f(x) : [0,1] \\rightarrow [0,1]$ be a function that first converts $x$ into base 3, and then re-interprets these base-3 digits in base 10. For example, $f(\\frac{1}{2}) = f(0.1111..._3) = 0.1111..._{10} = \\frac{1}{9}$. Find the value of the integral $\\int_0^1 f(x) dx$.",
+        rating: 5
+    },
+    {
+        statement: "Find the sum of the integers $n>1$ with the following property: for every multiple of $n$, the sum of the digits of that multiple taken 5 at a time from the right is also a multiple of $n$. For example, 3 has this property as for any multiple of 3, such as 202520252025, the sum 20 + 25202 + 52025 = 77247 is also a multiple of 3.",
+        rating: 4
+    },
+    {
+        statement: "What is the sum of all $x \\in \\mathbb{Z}^{+}$ such that for some prime $p$, $339^p - 2025 = x^2$?",
+        rating: 4
+    },
+    {
+        statement: "What is the product of the non-zero digits of the smallest perfect square greater than $10^{2024}$ whose sum of digits is not a perfect square?",
+        rating: 3
+    },
+    {
+        statement: "What is the 2025th positive integer $x$ such that $42x^2 + 1$ is a perfect square?",
+        rating: 6
+    },
+    {
+        statement: "What is the largest integer less than 2025 that can be expressed as the product of the digits of an integer $n$?",
+        rating: 3
+    },
+    {
+        statement: "Let $n=\\frac{10^a + 10^b + 10^c}{3}$ for distinct non-negative integers $a$, $b$, and $c$. Find the minimum possible value of $a+b+c$ such that the sum of the digits of $n$ is $2^{2024}$.",
+        rating: 5
+    },
+    {
+        statement: "Find the sum of all positive integers $n$ such that $n \\times 2^n$ has exactly $2024$ positive divisors.",
+        rating: 4
+    },
+    {
+        statement: "Let $A_n$ be the area of the region formed by the zeroes of the polynomial $p(x) = \\sum_{k=0}^{n} 42^{n-k}x^k$ in the complex plane. Find $lim_{n \\to \\infty} A_n$.",
+        rating: 4
+    },
+    {
+        statement: "Let $S$ be the set of all numbers that can be expressed as $2^a + 2^b + 2^c$ for $a,b,c \\in \\mathbb{Z}^{+}$. Find the 2025th smallest element of $S$.",
+        rating: 5
+    },
+    {
+        statement: "Let there be three circles such that each of the circles passes through the center of the other two circles. The radius of each circle is $1$. Find the area of the smallest circle that contains all three circles.",
+        rating: 3
+    },
+    {
+        statement: "A positive real number $k$ is chosen and a marker is placed at the point $(n,nk)$ for each positive integer $n$. The distance between two markers whose $x$-coordinate differs by $4$ is 70. What is the distance between the markers at $(42,42k)$ and $(2024,2024k)$?",
+        rating: 2
+    },
+    {
+        statement: "Let a,b,c,d be positive integers such that $a^2 + b^2 + c^2 = 42 \\times 2^d$. Find the number of tuples (a,b,c,d) such that $a+b+c+d \\leq 2025$.",
+        rating: 5
+    },
 ];
 
 // Create a container to hold the problem divs
