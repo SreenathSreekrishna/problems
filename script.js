@@ -52,7 +52,7 @@ const problems = [
         rating: 4
     },
     {
-        statement: "Consider a mathematical operation on a natural number $n$ to be either $42n$ or $n+1$. Find the least number of operations needed to transform $1$ into $2024^3$.",
+        statement: "Consider a mathematical operation on a natural number $n$ to result in either $42n$ or $n+1$. Find the least number of operations needed to transform $1$ into $2024^3$.",
         rating: 4
     },
     {
@@ -197,6 +197,206 @@ const problems = [
     },
     {
         statement: "Let a,b,c,d be positive integers such that $a^2 + b^2 + c^2 = 42 \\times 2^d$. Find the number of tuples (a,b,c,d) such that $a+b+c+d \\leq 2025$.",
+        rating: 5
+    },
+    {
+        statement: "Let $a @ b$ be the distance of the point $(a,b)$ from the origin. Find the least positive integer $n>1$ such that $1 @ 2 @ 3 @ 4 ... @ n$ is an integer.",
+        rating: 4
+    },
+    {
+        statement: "Let $a_n$ be a strictly increasing sequence such that $a_1 = 3$, and for all positive integers $k$, $\\sum_{i=1}^{k} a_i^2$ is a perfect square. What is the smallest possible value of $a_6$?",
+        rating: 5
+    },
+    {
+        statement: "Find all ordered pairs of real numbers $(x,y)$ such that $x^2 y^2 + 2x^2 y + 2xy^2 + x^2 + y^2 = 0$ and $x^3 + y^3 = (x+y)(1-3xy)$.",
+        rating: 4
+    },
+    {
+        statement: "What is the sum of the square roots of all 6-digit square numbers that can be represented as aabbcc, where a,b, and c are the digits of the number?",
+        rating: 5
+    },
+    {
+        statement: "Find the smallest positive integer $b>10$ such that $2024_b$ is divisible by 42 in base $b$.",
+        rating: 3
+    },
+    {
+        statement: "Let $a_n=(n+1)^{10}$ for positive integers $n$. What is the least positive integer $N$ such that every $a_i$ for $i>N$ can be expressed as a linear combination of the integers $a_1, a_2, \\ldots, a_N$ with non-negative integer coefficients? (For example, 13 is a linear combination of 2 and 3 as $2\\cdot 2 + 3\\cdot 3 = 13$, but is not a linear combination of 5 and 7.)",
+        rating: 6
+    },
+    {
+        statement: "On each of the vertices of a regular hexagon of side length 1, a circle of radius 1 is constructed. Find the area of the resulting shape.",
+        rating: 3
+    },
+    {
+        statement: "Let $f: \\mathbb{R} \\to \\mathbb{R}$ be a function such that $f(x+y) = (x+y)f(x)f(y)$ for all $x,y \\in \\mathbb{R}$. What is the difference between the maximum and minimum values of $f(2024)$?",
+        rating: 3
+    },
+    {
+        statement: "Let $p(x)$ be a polynomial such that $p(2x) = p(x) + \\sum_{i=1}^{2024} x^i$. Find the value of $p(4) - p(1)$.",
+        rating: 4
+    },
+    {
+        statement: "What is the sum of the digits of the sum of the digis of the sum of the digits of $2025^{2025}$?",
+        rating: 5
+    },
+    {
+        statement: "How many positive integers $n$ exist such that $n^2$ has less than 13 digits, and its first four digits in order are 2024?",
+        rating: 4
+    },
+    {
+        statement: "What is the least $n$ such that GCD($a_n$, $2^{20}-1$) is maximized, where $a_n$ is the integer composed of a string of $n$ ones? (For example, $a_3 = 111$.)",
+        rating: 5
+    },
+    {
+        statement: "What is the remainder when 1234567891011121314151617...202220232024 is divided by 101?",
+        rating: 5
+    },
+    {
+        statement: "How many positive integers $n \\leq 10^{42}$ exist such that $n$ can be written as the sum of an arbitrary number of distinct integers that are factorials?",
+        rating: 5
+    },
+    {
+        statement: "Let a sequence $a_n$ be defined by $a_{n+1} = 3a_n + 2^n$ for all non-negative integers $n$. Find the least positive integer $a_0$ for which $a_{42}$ is divisible by 2024.",
+        rating: 6
+    },
+    {
+        statement: "Let $r(n)$ denote the integer formed by reversing the digits of an integer $n$ in base 10. Find the least possible value of $xy$ if $xr(x) + yr(y) = 2025$",
+        rating: 4
+    },
+    {
+        statement: "Find the number of $x \\in \\mathbb{Z} \\cap [0,2024]$ such that $2^x sin(\\frac{\\pi}{42}x) \\in \\mathbb{Z}$.",
+        rating: 4
+    },
+    {
+        statement: "Find the least number divisible by 42 whose sum of digits is 42.",
+        rating: 4
+    },
+    {
+        statement: "If the altitudes of $\\triangle ABC$ are 42,2024 and $x$, find the sum of all $x \\in \\mathbb{Z}^{+}$",
+        rating: 3
+    },
+    {
+        statement: "Find all 5-tuples of real numbers $(a,b,c,d,e)$ such that $\\frac{a^2+b^2+c^2+d^2+e^2}{ab+ac+ad+ae+bc+bd+be+cd+ce+de}=\\frac{-2}{5}$.",
+        rating: 2
+    },
+    {
+        statement: "Let $N=\\prod_{n=1}^{2024} \\lfloor \\sqrt{n} \\rfloor$. Find the number of zeroes at the end of $N$ when expressed in base 10.",
+        rating: 4
+    },
+    {
+        statement: "How many 4-tuples of non-negative integers $(a,b,c,d)$ exist such that $a+2b+3c+4d=2024$?",
+        rating: 6
+    },
+    {
+        statement: "Find the sum of all possible values of $a+b$ if $a$ and $b$ are non-negative integers satisfying $2a^2 + b^2 + 2ab + 6a + 2b = 1100$.",
+        rating: 5
+    },
+    {
+        statement: "How many ordered triples of primes (p,q,r) exist such that $p+q+r=42$?",
+        rating: 3
+    },
+    {
+        statement: "Find the value of $\\sum_{n=1}^{\\infty} \\frac{1}{n \\cdot 2^n}$.",
+        rating: 6
+    },
+    {
+        statement: "Find the least positive integer $n$ such that $n^3$ ends in the digits 2024.",
+        rating: 5
+    },
+    {
+        statement: "Let a sequence of functions be defined as follows: $f_1(x) = x$, and for all positive integers $k$, $f_{k+1}(x) = (\\sum_{n=1}^{x} f_k(n))^{-1}$. Find the value of $f_5 (4)$.",
+        rating: 4
+    },
+    {
+        statement: "If a point is randomly chosen on the coordinate plane, what is the probability that its distance to the nearest point with integer coordinates is less than $\\frac{1}{4}$?",
+        rating: 4
+    },
+    {
+        statement: "Consider a regular pentagon $A_1 B_1 C_1 D_1 E_1$. Connect all the diagonals of the pentagon. The points of intersection of the diagonals form a new pentagon $A_2 B_2 C_2 D_2 E_2$. Connect all the diagonals of this new pentagon. The points of intersection of the diagonals form a new pentagon $A_3 B_3 C_3 D_3 E_3$. This process continues until $A_{2024} B_{2024} C_{2024} D_{2024} E_{2024}$ is constructed. In the figure now constructed, how many distinct line segments exist that do not coincide with any other line segments?",
+        rating: 2
+    },
+    {
+        statement: "Find the value of $\\sum_{i=1}^{42} \\sum_{j=1}^{42} \\sum_{k=1}^{42} min(i^2, j^2, k^2)$.",
+        rating: 6
+    },
+    {
+        statement: "Initially, we set $f_1 (n) = n^{42}$ for all positive integers $n$. For all positive integers $k$, $f_{k+1} (n) = f_k (n+1) - f_k (n)$. For some sufficiently large positive integer $v$, $f_v (n) = N$ for all positive integers $n$. If $v$ is minimized, find the number of factors of $N$.",
+        rating: 4
+    },
+    {
+        statement: "Let $d(n)$  be the number of factors of a positive integer $n$. Find the number of positive integers $n$ such that $d(n) < 2025$, $d(n)$ is a perfect square, and $n$ can be written as the product of the digits of a positive integer.",
+        rating: 5
+    },
+    {
+        statement: "Find the value of $\\sum_{a=1}^{2024} \\sum_{b=1}^{a} \\sum_{c=1}^{b} \\sum_{d=1}^{c} \\sum_{e=1}^{d} \\sum_{f=1}^{e} \\sum_{g=1}^{f} g$.",
+        rating: 4
+    },
+    {
+        statement: "Find the sum of all 3-digit integers $n=abc$ where a,b, and c are the digits of the number, satisfying $n = 1^a + 2^b + 3^c$.",
+        rating: 5
+    },
+    {
+        statement: "Find the least positive integer $n>100000$ such that upon erasing the last digit of $n^2$, what remains is also a perfect square. (For example, $38^2 = 1444$, and $12^2 = 144$)",
+        rating: 7
+    },
+    {
+        statement: "Let there be three mutually tangent circles of radii 1, called $A$, $B$, and $C$. Let $A'$ be a circle mutually tangent to $A$ and $B$, $B'$ be a circle mutually tangent to $B$ and $C$, and $C'$ be a circle mutually tangent to $C$ and $A$. None of A, B, C, A', B', C' intersect each other even once. Let $PQR$ be the smallest equilateral triangle enclosing all six circles. Let A', B' and C' have radius $r$, and the side length of $PQR$ be equal to $x$. What is the sum of all integers $1 \\leq r \\leq 1000$ such that $x - \\sqrt{3s} \\in \\mathbb{Z}$ for some perfect square $s$?",
+        rating: 6
+    },
+    {
+        statement: "Find all unordered pairs $(a,b)$ such that $GCD(a,b)^2 + LCM(a,b)^2 = 20880$.",
+        rating: 4
+    },
+    {
+        statement: "Let a sequence $a_n$ be defined by $a_0 = N$ and $a_{n+1} = a_n ^2$ for all non-negative integers $n$. Find the sum of all $1 \\leq N \\leq 2024$ such that $a_N$ has last two digits $01$.",
+        rating: 5
+    },
+    {
+        statement: "Two metal spheres of radius 2 and 3 are made. These are to be melted down and recast into two different spheres of rational radii. Find such a possible pair of radii.",
+        rating: 7
+    },
+    {
+        statement: "Find the sum of the perimeters of all distinct non-congruent triangles with the sum of two angles equal to $60^\\circ$ and all sides prime.",
+        rating: 6
+    },
+    {
+        statement: "Find the least positive integer $x$ such that $x^3 + x + 1$ is a perfect square.",
+        rating: 5
+    },
+    {
+        statement: "A non-empty set S of natural numbers is called perfect if $\\sum_{x \\in S} d(x) = \\sum_{x \\in S} x$, where $d(x)$ is the number of positive divisors of $x$. How many ordered pairs of perfect sets $(S_1, S_2)$ exist?",
+        rating: 3
+    },
+    {
+        statement: "How many factors does the LCM of all square numbers less than $2025$ have?",
+        rating: 4
+    },
+    {
+        statement: "Let $f$ be the fractional part of $(45 + \\sqrt{2024})^{42}$. Find the value of $\\lfloor 42 f \\rfloor$.",
+        rating: 5
+    },
+    {
+        statement: "Let S be the set positive integers $m < 1000$ that are the last three digits of both a positive integer $n$ and $\\lfloor \\frac{n}{71} \\rfloor$. Find the sum of all elements in S.",
+        rating: 4
+    },
+    {
+        statement: "Let there be a 101x101 grid of lattice points between the points $(0,0)$ and $(100,100)$ on the coordinate plane. For every integer sided right triangle $\\triangle ABC$ with vertices at these lattice points, the \"value\" of the points $A$, $B$, and $C$ are incremented by 1. Find the \"value\" of the point $(100,100)$ after all such triangles have been considered.",
+        rating: 6
+    },
+    {
+        statement: "What is the smallest positive integer $n$ such that $x = n^3 + (n+1)^3 + (n+2)^3$ is a number with greater than four digits and ends in the digits $0001$?",
+        rating: 7
+    },
+    {
+        statement: "What is the smallest positive integer $n$ such that $x = n^3 + (n+1)^3 + (n+2)^3$ is a number with greater than eight digits and ends in the digits $00000001$?",
+        rating: 8
+    },
+    {
+        statement: "The operation tetration is defined as follows: $^{1}x = x$, and $^{n+1}{x} = x^{^{n}x}$ for all positive integers $n$. Let $f(x)$ denote the last four digits of $x$. Find the value of $\\lim_{n \\to \\infty} f(^{n}2)$",
+        rating: 6
+    },
+    {
+        statement: "Let $s(n)$ be the sum of the digits of a natural number $n$ in base 10. Find the sum of all natural numbers $n$ such that $s(n^4) = n$.",
         rating: 5
     },
 ];
