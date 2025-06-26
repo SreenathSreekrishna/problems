@@ -312,8 +312,8 @@ const problems = [
         rating: 4
     },
     {
-        statement: "Consider a regular pentagon $A_1 B_1 C_1 D_1 E_1$. Connect all the diagonals of the pentagon. The points of intersection of the diagonals form a new pentagon $A_2 B_2 C_2 D_2 E_2$. Connect all the diagonals of this new pentagon. The points of intersection of the diagonals form a new pentagon $A_3 B_3 C_3 D_3 E_3$. This process continues until $A_{2024} B_{2024} C_{2024} D_{2024} E_{2024}$ is constructed. In the figure now constructed, how many distinct line segments exist that do not coincide with any other line segments?",
-        rating: 2
+        statement: "Consider a regular pentagon $A_1 B_1 C_1 D_1 E_1$. Connect all the diagonals of the pentagon. The points of intersection of the diagonals form a new pentagon $A_2 B_2 C_2 D_2 E_2$. Connect all the diagonals of this new pentagon. The points of intersection of the diagonals form a new pentagon $A_3 B_3 C_3 D_3 E_3$. This process continues until $A_{2024} B_{2024} C_{2024} D_{2024} E_{2024}$ is constructed. In the figure now constructed, evey line segment is extended to infinity on both sides. How many distinct lines are formed after all segments have been extended?",
+        rating: 3
     },
     {
         statement: "Find the value of $\\sum_{i=1}^{42} \\sum_{j=1}^{42} \\sum_{k=1}^{42} min(i^2, j^2, k^2)$.",
@@ -357,7 +357,7 @@ const problems = [
     },
     {
         statement: "Find the sum of the perimeters of all distinct non-congruent triangles with the sum of two angles equal to $60^\\circ$ and all sides prime.",
-        rating: 6
+        rating: 7
     },
     {
         statement: "Find the least positive integer $x$ such that $x^3 + x + 1$ is a perfect square.",
@@ -369,15 +369,15 @@ const problems = [
     },
     {
         statement: "How many factors does the LCM of all square numbers less than $2025$ have?",
-        rating: 4
+        rating: 3
     },
     {
         statement: "Let $f$ be the fractional part of $(45 + \\sqrt{2024})^{42}$. Find the value of $\\lfloor 42 f \\rfloor$.",
-        rating: 5
+        rating: 4
     },
     {
         statement: "Let S be the set positive integers $m < 1000$ that are the last three digits of both a positive integer $n$ and $\\lfloor \\frac{n}{71} \\rfloor$. Find the sum of all elements in S.",
-        rating: 4
+        rating: 5
     },
     {
         statement: "Let there be a 101x101 grid of lattice points between the points $(0,0)$ and $(100,100)$ on the coordinate plane. For every integer sided right triangle $\\triangle ABC$ with vertices at these lattice points, the \"value\" of the points $A$, $B$, and $C$ are incremented by 1. Find the \"value\" of the point $(100,100)$ after all such triangles have been considered.",
